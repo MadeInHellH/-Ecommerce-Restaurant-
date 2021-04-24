@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
-import { FaPizzeSlice } from 'react-icons/fa'
+import { FaPizzaSlice } from 'react-icons/fa'
 
 export const Nav = styled.nav`
-background: red;
+background: trasparent;
 height: 80px;
 display: flex;
 justify-content: center;
@@ -13,7 +13,7 @@ font-weight: 700;
 export const NavLink = styled(Link)`
 color: #fff;
 font-size: 2rem;
-display:flex;
+display: flex;
 align-items: center;
 text-decoration: none;
 cursor: pointer;
