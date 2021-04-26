@@ -63,9 +63,9 @@ export const ProductButton = styled.button`
    color: #fff;
    transition: 0.2 ease-out;
 
-&:hover {
+ &:hover {
     background: #ffc500;
     trasition: pointer;
     color: #000;
-}
-    `;
+ }
+  `;
