@@ -18,6 +18,7 @@ align-items: center;
 text-decoration: none;
 cursor: pointer;
 
+
 @media screen and (max-width: 400px) {
     position: absolute;
     top: 10px;
@@ -30,15 +31,20 @@ position: absolute;
 top: 0;
 right: 0;
 cursor: pointer;
-color: #fff;
+color: #fff;    
+
 
 p {
     transform: translate(-175, 100%);
-    front-weight: bold;
+    font-weight: bold;
+    margin-left: -5em;
+    margin-right: 5em;
+    margin-bottom: -2em;
+    margin-top: 2em;
 }
-`
+`;
 
 export const Bars = styled(FaPizzaSlice)`
 font-size: 2rem;
 transform: translate(-50%, -15%);
-`
+`;

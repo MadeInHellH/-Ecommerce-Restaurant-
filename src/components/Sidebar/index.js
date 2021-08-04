@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {
     SidebarContainer,
     Icon,
@@ -12,7 +12,7 @@ import {
 const Sidebar = ({isOpen, toggle}) => {
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
-            <Icon>
+            <Icon onClick={toggle}>
                 <CloseIcon />
             </Icon>
             <SidebarMenu>
@@ -27,5 +27,4 @@ const Sidebar = ({isOpen, toggle}) => {
     );
 };
 
-export default Sidebar
-
+export default Sidebar;

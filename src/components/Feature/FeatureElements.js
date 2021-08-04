@@ -2,15 +2,14 @@ import styled from 'styled-components';
 import FeaturePic from'../../images/featured3.jpg';
 
 export const FeatureContainer = styled.div`
- background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1))
- ,
+ background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
  url(${FeaturePic});
  height: 100vw;
  max-height: 500px;
  background-position: center;
  background-size: cover;
  display: flex;
- flex-directions: column;
+ flex-direction: column;
  justify-content: center;
  align-items: center;
  color: #fff;
@@ -19,6 +18,7 @@ export const FeatureContainer = styled.div`
 
  h1 {
      font-size: clamp(3rem, 5vw, 5rem);
+     
  }
 
  p {
