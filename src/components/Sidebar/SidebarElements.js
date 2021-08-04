@@ -82,7 +82,7 @@ export const SidebarMenu = styled.div`
 
    &:hover {
        transition: 0.2s ease-in-out;
-       background: #ffc500;
+       background: #fff;
        color: #010606;
    }
    `;
